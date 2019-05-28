@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VistaWPF", "VistaWPF.csproj", "{4CB11174-2EF7-4EC2-9385-F93F6ED9A699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "..\Modelo\Modelo.csproj", "{65D837B4-B91F-488D-879B-F257F394D847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controlador", "..\Controlador\Controlador.csproj", "{B332C6E9-B98B-447E-AB98-6F072566FCC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB11174-2EF7-4EC2-9385-F93F6ED9A699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB11174-2EF7-4EC2-9385-F93F6ED9A699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB11174-2EF7-4EC2-9385-F93F6ED9A699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB11174-2EF7-4EC2-9385-F93F6ED9A699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D837B4-B91F-488D-879B-F257F394D847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D837B4-B91F-488D-879B-F257F394D847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D837B4-B91F-488D-879B-F257F394D847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D837B4-B91F-488D-879B-F257F394D847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B332C6E9-B98B-447E-AB98-6F072566FCC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B332C6E9-B98B-447E-AB98-6F072566FCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B332C6E9-B98B-447E-AB98-6F072566FCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B332C6E9-B98B-447E-AB98-6F072566FCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E58AF9AB-8C82-4250-A982-2CCFEC669958}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+﻿<Window x:Class="VistaWPF.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VistaWPF"
+        mc:Ignorable="d"
+        Title="Login" Height="320" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Contraseña:" HorizontalAlignment="Left" Margin="231,138,0,0" VerticalAlignment="Top" Width="91" FontFamily="Microsoft Sans Serif" FontSize="14" Grid.Column="1" Height="26"/>
+        <Label HorizontalAlignment="Left" Margin="274,128,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="14" Grid.Column="1" Height="10" Width="10"/>
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="256,77,0,0" VerticalAlignment="Top" Width="66" FontFamily="Microsoft Sans Serif" FontSize="14" Grid.Column="1" Height="26"/>
+        <TextBox x:Name="txtId_Producto" HorizontalAlignment="Left" Height="23" Margin="381,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Microsoft Sans Serif" BorderBrush="#FF0A1509" FontSize="14" Grid.Column="1"/>
+        <TextBox x:Name="txtNombre_Producto" HorizontalAlignment="Left" Height="23" Margin="381,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Microsoft Sans Serif" BorderBrush="#FF0A1509" FontSize="14" Grid.Column="1"/>
+        <Button x:Name="btn_Cancelar" FontWeight="Bold" HorizontalAlignment="Left" Margin="380,220,0,0" VerticalAlignment="Top" Width="124" Height="28" RenderTransformOrigin="-0.067,-1.393" FontFamily="Microsoft Sans Serif" Grid.Column="1">
+            <WrapPanel Width="136">
+                <Image Source="icons/cancelar_icon.png" Width="44" Height="28"/>
+                <TextBlock Foreground="Black" Text="CANCELAR" VerticalAlignment="Stretch" TextAlignment="Center" Height="14" Width="71" FontFamily="Microsoft Sans Serif"/>
+            </WrapPanel>
+        </Button>
+        <Image  HorizontalAlignment="Center" Height="158" Margin="10,59,385,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="197" Source="icons/login.png" Grid.Column="1">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="icons/login.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <DockPanel HorizontalAlignment="Left" Height="37" LastChildFill="False" VerticalAlignment="Top" Width="592" Background="#FF99FF6A" Grid.ColumnSpan="2">
+            <TextBlock Text="LOG IN" TextAlignment="Center" VerticalAlignment="Bottom" FontSize="16" FontWeight="Bold" FontStretch="SemiCondensed" Width="590" FontFamily="Microsoft Sans Serif" Height="25" Background="#FF99FF6A"/>
+        </DockPanel>
+        <Button x:Name="btn_Aceptar" FontWeight="Bold" HorizontalAlignment="Left" Margin="201,222,0,0" VerticalAlignment="Top" Width="145" Height="28" RenderTransformOrigin="-0.067,-1.393" FontFamily="Microsoft Sans Serif" Click="Btn_Aceptar_Click" Grid.Column="1">
+            <WrapPanel Width="136">
+                <Image Source="icons/aceptar_icon.png" Width="34"/>
+                <TextBlock Foreground="Black" Text="INICIAR SESIÓN" VerticalAlignment="Stretch" TextAlignment="Center" Height="14" Width="100" FontFamily="Microsoft Sans Serif"/>
+            </WrapPanel>
+        </Button>
+    </Grid>
+</Window>
